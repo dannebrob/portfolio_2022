@@ -1,0 +1,46 @@
+import { ThemeContext } from "../contexts/ThemeContext";
+import "./Hero.css";
+import avatar from "../assets/avatar.png";
+
+function Hero() {
+  return (
+    <ThemeContext.Consumer>
+      {(context) => {
+        const { isLightTheme, light, dark } = context;
+        const theme = isLightTheme ? light : dark;
+        return (
+          <div
+            className="hero"
+            id="hero"
+            style={{ background: theme.bg, color: theme.fontColor }}
+          >
+            <img className="avatar" src={avatar} alt="This is my avatar" />
+            <div className="headline">
+              <p>Hello! I'm Daniel Brobäck</p>
+              <h2>Front-end Developer</h2>
+              <p>
+                I design and develop responsive, optimized websites and web
+                Applictaions. Currently available for short- and long term
+                opportunities.
+              </p>
+              <div className="button-container">
+                <a href="mailto: hej@danielbroback.se">
+                  <button>Contact</button>
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://1drv.ms/b/s!Atz8nSRU0aXekLA0ArCQEPop9CKWHQ?e=kTD7T9"
+                >
+                  <button>My resume</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        );
+      }}
+    </ThemeContext.Consumer>
+  );
+}
+
+export default Hero;

@@ -1,0 +1,71 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.about > * {
+  padding-bottom: 2rem;
+}
+
+.about .presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about .stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  padding-top: 3rem;
+}
+.about .stack .icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about .stack .icons * {
+  padding: 1rem;
+}
+
+.about .engage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+
+.about .engage p {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.about .engage a > button {
+  all: unset;
+  border: 2px solid blue;
+  border-radius: 40px;
+  margin: 0.3rem;
+  padding: 0.8rem 1.2rem;
+  text-align: center;
+  font-weight: 600;
+  -webkit-transition: border 500ms ease-out;
+  -moz-transition: border 500ms ease-out;
+  -o-transition: border 500ms ease-out;
+  transition: border 500ms ease-out;
+}
+
+.about .engage button:hover {
+  border: 2px solid rgb(92, 199, 235);
+}

@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer .social-links {
+  padding: 1rem;
+}
+
+.footer .social-links > * {
+  margin: 1rem;
+}
+
+.footer .credits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .credits p {
+  text-align: center;
+}

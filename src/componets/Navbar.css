@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+nav :nth-child(1) {
+  order: 2;
+}
+nav :nth-child(2) {
+  order: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding-left: 1rem;
+}
+
+li:hover {
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 1.01rem;
+}
