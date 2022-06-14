@@ -14,7 +14,7 @@ function Footer() {
             id="footer"
             style={{ background: theme.bg, color: theme.fontColor }}
           >
-            <h3>Lets connect!</h3>
+            <h2>Lets connect!</h2>
             <div className="social-links">
               <a
                 rel="noreferrer"

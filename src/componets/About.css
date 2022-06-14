@@ -22,6 +22,11 @@
   text-align: center;
 }
 
+.profile-picture {
+  width: 20rem;
+  margin: 3rem;
+}
+
 .about .stack {
   display: flex;
   flex-direction: column;

@@ -1,5 +1,6 @@
 import { ThemeContext } from "../contexts/ThemeContext";
 import "./About.css";
+import profilePicture from "../assets/profilePicture.png";
 function About() {
   return (
     <ThemeContext.Consumer>
@@ -13,7 +14,11 @@ function About() {
             style={{ background: theme.bg, color: theme.fontColor }}
           >
             <div className="presentation">
-              <img alt="me" src="#" />
+              <img
+                className="profile-picture"
+                alt="profile picture"
+                src={profilePicture}
+              />
               <p>
                 Hello! I'm Daniel Brobäck, a Front-end developer based in
                 Gothenburg (Sweden). I'm a problem solver and self taught

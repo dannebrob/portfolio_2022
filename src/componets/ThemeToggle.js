@@ -10,9 +10,12 @@ class ThemeToggle extends Component {
 
     const { toogle } = this.context;
     return (
-      <button className="toogle-btn" onClick={toogle}>
-        {trueOrFalse ? "☀️" : "🌔"}
-      </button>
+      <div className="toggle-container">
+        <button className="toogle-btn" onClick={toogle}>
+          {trueOrFalse ? "☀️" : "🌔"}
+        </button>
+        <p className="toggle-text">Dark Mode: {trueOrFalse ? "ON" : "OFF"}</p>
+      </div>
     );
   }
 }
