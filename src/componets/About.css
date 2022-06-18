@@ -59,7 +59,7 @@
 
 .about .engage a > button {
   all: unset;
-  border: 2px solid blue;
+  border: 2px solid rgb(0, 102, 204);
   border-radius: 40px;
   margin: 0.3rem;
   padding: 0.8rem 1.2rem;

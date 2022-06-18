@@ -1,7 +1,9 @@
 import { type } from "@testing-library/user-event/dist/type";
+import { useState } from "react";
 import "./DisplayItem.css";
 
 function DisplayItem(props) {
+  const [showMore, setShowMore] = useState(false);
   const tagItems = props.tags;
 
   const generateTags = tagItems.map((item) => {
@@ -27,7 +29,20 @@ function DisplayItem(props) {
             />{" "}
           </a>
         </div>
-        <p className="item-text">{props.text}</p>
+        <p className="item-preamble">{props.preamble}</p>
+        <p className="item-text">
+          {showMore ? props.text : props.text.substring(0, 100) + "..."}
+        </p>
+        <p>
+          <button
+            className="show-more-btn"
+            onClick={() => {
+              setShowMore(!showMore);
+            }}
+          >
+            {!showMore ? "Continue reading ⟫" : "Show Less "}
+          </button>
+        </p>
         <div className="tags">{generateTags}</div>
       </div>
     </div>

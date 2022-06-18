@@ -8,6 +8,7 @@ function Display() {
       <DisplayItem
         key={item.id}
         title={item.title}
+        preamble={item.preamble}
         text={item.text}
         image={item.image}
         github={item.github}
