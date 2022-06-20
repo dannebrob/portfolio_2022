@@ -5,7 +5,7 @@ const Data = [
     title: "AirBean React Project",
     preamble:
       "A coffee ordering app. The final project of a React and Redux course. With drone delivery.",
-    text: "   This was the final big project in the React course, by Folkuniverisitetet and ZooCom. It summed up most of the course syllabus. The project was a great hands-on project with React, Redux, React Router and API calls. A lot of focus was also on problem-solving and decision-making, since the rules of the project were not predefined. After the project, I feel that lots of the concepts of React and Redux were solidified and tested my ability to find my own solutions.",
+    text: "This was the final big project in the React course, by Folkuniverisitetet and ZooCom. It summed up most of the course syllabus. The project was a great hands-on project with React, Redux, React Router and API calls. A lot of focus was also on problem-solving and decision-making, since the rules of the project were not predefined. After the project, I feel that lots of the concepts of React and Redux were solidified and tested my ability to find my own solutions.",
     github: "https://github.com/dannebrob/7-Slutexaminationen-React-YH/",
     webpage: "https://github.com/dannebrob/7-Slutexaminationen-React-YH/",
     tags: ["React", "Redux", "React Router", "API"],

@@ -7,11 +7,11 @@ function DisplayItem(props) {
   const tagItems = props.tags;
 
   const generateTags = tagItems.map((item) => {
-    return <p>{item}</p>;
+    return <p key={item.id}>{item}</p>;
   });
 
   return (
-    <div className="item">
+    <div key={props.id} className="item">
       <img alt="project" src={props.image} />
       <div className="item-text-container">
         <div className="item-title-container">

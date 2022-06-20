@@ -7,6 +7,7 @@ function Display() {
     return (
       <DisplayItem
         key={item.id}
+        id={item.id}
         title={item.title}
         preamble={item.preamble}
         text={item.text}
