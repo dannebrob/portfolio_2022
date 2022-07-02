@@ -35,10 +35,11 @@ export const ContactMe = () => {
         const theme = isLightTheme ? light : dark;
         return (
           <div
+            id="contact-me"
             className="contact-me"
             style={{ background: theme.bg, color: theme.fontColor }}
           >
-            <h3>Contact me</h3>
+            <p>Let´s start a conversation 👋</p>
             <form ref={form} onSubmit={sendEmail}>
               <div className="name">
                 <label>Name</label>

@@ -23,6 +23,16 @@ const Data = [
   },
   {
     id: 3,
+    image: "https://i.ibb.co/fS9tPFQ/sk-rmbild-2022-06-25-193106-min.png",
+    title: "Marias Naprapatklinik",
+    preamble: "A website made for a client, built with AtroJs ",
+    text: "This project was built for a client that didn't get launched in the end, but I had a blast making it and thought I got to add some nice features like Observer API for example. I liked working with a new tool like Astro since it forced me to learn new ways to solve problems but was still the same old Javascript I enjoy writing.",
+    github: "https://github.com/dannebrob/Astro_multipage",
+    webpage: "https://naprapat-pre.netlify.app/",
+    tags: ["Javascript", "AstroJS", "CSS", "Mobile-first", "Image Optimizing"],
+  },
+  {
+    id: 4,
     image: "https://i.ibb.co/jfrYTmT/IMG-6462-Cropped.jpg",
     title: "Portfolio - v1",
     preamble: "My porfolio built wtith React.",

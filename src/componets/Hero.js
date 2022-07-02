@@ -24,7 +24,7 @@ function Hero() {
                 opportunities.
               </p>
               <div className="button-container">
-                <a href="mailto: hej@danielbroback.se">
+                <a href="#contact-me">
                   <button>Contact</button>
                 </a>
                 <a
