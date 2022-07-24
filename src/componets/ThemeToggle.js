@@ -14,7 +14,7 @@ class ThemeToggle extends Component {
         <button className="toogle-btn" onClick={toogle}>
           {trueOrFalse ? "☀️" : "🌔"}
         </button>
-        <p className="toggle-text">Dark Mode: {trueOrFalse ? "ON" : "OFF"}</p>
+        <p className="toggle-text">Dark Mode: {trueOrFalse ? "OFF" : "ON"}</p>
       </div>
     );
   }
