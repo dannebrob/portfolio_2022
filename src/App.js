@@ -1,5 +1,6 @@
 import "./App.css";
 import ThemeContextProvider from "./contexts/ThemeContext";
+import "animate.css/animate.min.css";
 import Navbar from "./componets/Navbar";
 import Hero from "./componets/Hero";
 import Display from "./componets/Display";

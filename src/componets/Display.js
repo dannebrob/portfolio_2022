@@ -1,21 +1,29 @@
 import { ThemeContext } from "../contexts/ThemeContext";
-import Data from "../assets/data/DisplayData";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import { Cards } from "../assets/data/DisplayData";
 import DisplayItem from "./DisplayItem";
 import "./Display.css";
 function Display() {
-  const generateDisplayItem = Data.map((item) => {
+  const generateDisplayItem = Cards.map((item) => {
     return (
-      <DisplayItem
-        key={item.id}
-        id={item.id}
-        title={item.title}
-        preamble={item.preamble}
-        text={item.text}
-        image={item.image}
-        github={item.github}
-        webpage={item.webpage}
-        tags={item.tags}
-      />
+      <AnimationOnScroll
+        animateIn="animate__fadeIn"
+        offset="100"
+        initiallyVisible="true"
+        animateOnce="true"
+      >
+        <DisplayItem
+          key={item.id}
+          id={item.id}
+          title={item.title}
+          preamble={item.preamble}
+          text={item.text}
+          image={item.image}
+          github={item.github}
+          webpage={item.webpage}
+          tags={item.tags}
+        />
+      </AnimationOnScroll>
     );
   });
 

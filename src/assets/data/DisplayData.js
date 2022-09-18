@@ -1,7 +1,12 @@
-const Data = [
+import elin from "../../assets/images/elinsGlada.webp";
+import airBean from "../../assets/images/airBean.webp";
+import mariasNaprapat from "../../assets/images/mariasNaprapat.webp";
+import portfolio from "../../assets/images/portfolio.webp";
+
+const Cards = [
   {
     id: 1,
-    image: "https://i.ibb.co/pZsND65/IMG-6464-Cropped.jpg",
+    image: airBean,
     title: "AirBean React Project",
     preamble:
       "A coffee ordering app. The final project of a React and Redux course. With drone delivery.",
@@ -12,7 +17,7 @@ const Data = [
   },
   {
     id: 2,
-    image: "https://i.ibb.co/rvLJVdj/IMG-6463-Cropped.jpg",
+    image: elin,
     title: "Elins Glada Ekologiska Kor",
     preamble:
       "Wordpress theme, built from the ground up. Made for a local business.",
@@ -23,7 +28,7 @@ const Data = [
   },
   {
     id: 3,
-    image: "https://i.ibb.co/fS9tPFQ/sk-rmbild-2022-06-25-193106-min.png",
+    image: mariasNaprapat,
     title: "Marias Naprapatklinik",
     preamble: "A website made for a client, built with AtroJs ",
     text: "This project was built for a client that didn't get launched in the end, but I had a blast making it and thought I got to add some nice features like Observer API for example. I liked working with a new tool like Astro since it forced me to learn new ways to solve problems but was still the same old Javascript I enjoy writing.",
@@ -33,7 +38,7 @@ const Data = [
   },
   {
     id: 4,
-    image: "https://i.ibb.co/jfrYTmT/IMG-6462-Cropped.jpg",
+    image: portfolio,
     title: "Portfolio - v1",
     preamble: "My porfolio built wtith React.",
     text: "A great hobby project that really had no boundaries. I wanted to build it with react since I liked the component based way to build the site. I wanted to use the React Context API for state management, since I had used Redux before and wanted to try it out. This will most certainly be a project that I keep on working with, since there's a lot of features I would love to add.",
@@ -43,4 +48,4 @@ const Data = [
   },
 ];
 
-export default Data;
+export { Cards };
