@@ -20,14 +20,16 @@ function DisplayItem(props) {
             <img
               alt="Github"
               src="https://img.icons8.com/glyph-neue/64/000000/github.png"
-            />{" "}
+            />
           </a>
-          <a className="web-link" href={props.webpage}>
-            <img
-              alt="Link to website"
-              src="https://img.icons8.com/glyph-neue/64/000000/share-3.png"
-            />{" "}
-          </a>
+          {props.webpage ? (
+            <a className="web-link" href={props.webpage}>
+              <img
+                alt="Link to website"
+                src="https://img.icons8.com/glyph-neue/64/000000/share-3.png"
+              />{" "}
+            </a>
+          ) : null}
         </div>
         <p className="item-preamble">{props.preamble}</p>
         <p className="item-text">

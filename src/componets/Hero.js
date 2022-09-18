@@ -16,11 +16,13 @@ function Hero() {
           >
             <img className="avatar" src={avatar} alt="This is my avatar" />
             <div className="headline">
-              <h3>Hello! I'm Daniel Brobäck</h3>
-              <h2>Front-end Developer</h2>
+              <h1>Hello! I'm Daniel Brobäck</h1>
+              <h2 className="animate__animated animate__flip">
+                Front-End Developer
+              </h2>
               <p>
                 I design and develop responsive, optimized websites and web
-                Applictaions. Currently available for short- and long term
+                apps. Currently available for short- and long term
                 opportunities.
               </p>
               <div className="button-container">

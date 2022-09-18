@@ -21,7 +21,7 @@ function About() {
               />
               <p>
                 Hello! I'm Daniel Brobäck, a Front-end developer based in
-                Gothenburg (Sweden). I'm a problem solver and self taught
+                Gothenburg (Sweden). I'm a problem-solver and self-taught
                 javascript developer. Let's build something great together!
               </p>
             </div>

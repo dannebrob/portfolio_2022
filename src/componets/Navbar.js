@@ -12,7 +12,7 @@ function Navbar() {
             <ThemeToggle props={isLightTheme} />
             <ul>
               <li>
-                <a href="#work">WORK</a>
+                <a href="#work">PROJECTS</a>
               </li>
               <li>
                 <a href="#about">ABOUT</a>
