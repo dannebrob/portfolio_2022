@@ -16,7 +16,7 @@ function Hero() {
           >
             <img className="avatar" src={avatar} alt="This is my avatar" />
             <div className="headline">
-              <h1>Hello! I'm Daniel Brobäck</h1>
+              <h1>👋 I'm Daniel Brobäck</h1>
               <h2 className="animate__animated animate__flip">
                 Front-End Developer
               </h2>

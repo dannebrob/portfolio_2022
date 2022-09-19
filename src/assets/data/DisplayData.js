@@ -9,9 +9,9 @@ const Cards = [
   {
     id: 1,
     image: interactivecreditcard,
-    title: "interactive credit card payment",
+    title: "Interactive credit card payment",
     preamble: "My solution on the Frontend Mentor Challenge",
-    text: "On this project I had to be on my toes with the CSS. To get the text on the right places on the credit cards was a bit tricky. Also I had to learn about forms in React and how to validate the inputs.",
+    text: "On this project I had to be on my toes with the CSS. To get the text on the right places on the credit cards was a bit tricky. Also, I had to learn about forms in React and how to validate the inputs.",
     github: "https://github.com/dannebrob/interactive-card-details",
     webpage: "https://interactivecreditcard.netlify.app/",
     tags: ["React", "TailWindCSS", "Forms"],

@@ -5,6 +5,7 @@
   align-items: center;
   width: 100%;
   height: 70vh;
+  padding-top: 4rem;
 }
 
 .avatar {
@@ -22,6 +23,7 @@
 }
 .headline h1 {
   padding-bottom: 1rem;
+  font-size: 1.7rem;
 }
 .headline p {
   font-size: 1.2rem;
