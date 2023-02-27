@@ -21,9 +21,12 @@ function Hero() {
                 Front-End Developer
               </h2>
               <p>
-                I design and develop responsive, optimized websites and web
-                apps. Currently available for short- and long term
-                opportunities.
+                I'm a frontend developer with a strong interest in web
+                development and education. As a former firefighter and teacher,
+                I believe in collaboration and problem solutions. I'm also quite
+                excited about the tech industry, where you frequently
+                collaborate with others to find answers. My ultimate objective
+                is to become fullstack, and I won't give up until I achieve it.
               </p>
               <div className="button-container">
                 <a href="#contact-me">
