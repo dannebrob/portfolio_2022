@@ -1,11 +1,9 @@
 .item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
-  width: 90vw;
+  justify-content: space-between;
+  height: 700px;
   max-width: 600px;
-  margin-bottom: 2rem;
   border: 2px solid rgb(177, 177, 177);
   border-radius: 24px 24px 24px 24px;
   -webkit-box-shadow: 3px 8px 24px rgba(149, 157, 168, 0.2);
@@ -20,6 +18,7 @@
 
 .item img {
   width: 100%;
+  max-height: 400px;
   border-radius: 24px 24px 0px 0px;
 }
 
@@ -54,7 +53,7 @@
 }
 
 .item .tags {
-  padding-top: 2.5rem;
+  padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -83,4 +82,10 @@
 
 .item .show-more-btn:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .item {
+    justify-content: space-around;
+  }
 }

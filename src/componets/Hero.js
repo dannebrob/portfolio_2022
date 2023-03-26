@@ -17,9 +17,7 @@ function Hero() {
             <img className="avatar" src={avatar} alt="This is my avatar" />
             <div className="headline">
               <h1>👋 I'm Daniel Brobäck</h1>
-              <h2 className="animate__animated animate__flip">
-                Front-End Developer
-              </h2>
+              <h2>Front-End Developer</h2>
               <p>
                 I'm a frontend developer with a strong interest in web
                 development and education. As a former firefighter and teacher,

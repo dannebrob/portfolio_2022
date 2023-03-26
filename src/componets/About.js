@@ -41,6 +41,10 @@ function About() {
                   src="https://img.icons8.com/color/48/000000/javascript--v1.png"
                 />
                 <img
+                  alt="typeScript"
+                  src="https://img.icons8.com/color/48/null/typescript.png"
+                />
+                <img
                   alt="react"
                   src="https://img.icons8.com/color/48/000000/react-native.png"
                 />
@@ -56,12 +60,8 @@ function About() {
             </div>
             <div className="engage">
               <p>
-                I have a passion for design and front-end development. Committed
-                to fulfilling the opportunities given to me. Building modern and
-                effective solutions. Rigorous and demanding, I take care to
-                replicate best practices and standards of the web. Being curious
-                and open-minded, I love experiencing the latest trends and keep
-                learning everyday.
+                I like working with JavaScript / TypeScript and React, and I'm
+                always looking forward to learn new technologies.
               </p>
               <a
                 rel="noreferrer"

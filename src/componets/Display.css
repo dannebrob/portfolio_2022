@@ -1,14 +1,26 @@
 .display {
-  padding-top: 5rem;
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+  padding: 50px;
 }
 
 .display > h2 {
   text-align: center;
   padding: 2rem;
+}
+
+@media screen and (min-width: 550px) {
+  .display {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 1048px) {
+  .display {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 50px;
+  }
 }
